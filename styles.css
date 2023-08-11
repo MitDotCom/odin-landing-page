@@ -3,4 +3,8 @@
     background-color: #1F2937;
     display: flex;
     padding: 8px;
+    justify-content: space-between;
+}
+.header-links {
+    text-decoration-style: none;
 }
