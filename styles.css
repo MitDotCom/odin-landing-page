@@ -2,7 +2,7 @@
     color: white;
     background-color: #1F2937;
     display: flex;
-    padding: 8px;
+    flex: 1;
     justify-content: space-between;
 }
 
@@ -14,4 +14,14 @@
 a {
     color: white;
     text-decoration-style: none;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.banner {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
 }
