@@ -16,14 +16,16 @@ a {
     text-decoration-style: none;
 }
 
-h1 {
-    font-weight: 900;
-}
+/* Banner */
 
 .banner {
     color: white;
     background-color: #1F2937;
     display: flex;
+}
+
+h1 {
+    font-weight: 900;
 }
 
 /* ICONS */
