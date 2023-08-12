@@ -16,7 +16,7 @@ a {
     text-decoration-style: none;
 }
 
-/* Banner */
+/* BANNER */
 
 .banner {
     color: white;
@@ -33,3 +33,5 @@ h1 {
 .icons {
     display: flex;
 }
+
+/* QUOTE */
