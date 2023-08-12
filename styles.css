@@ -3,6 +3,9 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 500px;
+}
 
 .header {
     background-color: #1f2937;
@@ -19,6 +22,11 @@ a {
     font-weight: bolder;
 }
 
+.header-links {
+    display: flex;
+    gap: 14px;
+}
+
 .header a {
     font-size: 18px;
 }
@@ -29,6 +37,12 @@ a {
     justify-content: space-around;
     align-items: center;
     padding: 18px
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
 }
 
 .banner h1 {
@@ -53,12 +67,17 @@ a {
     font-size: 18px;
 }
 
-.left {
+.icons {
     display: flex;
-    flex-direction: column;
-    max-width: 400px;
+}
+.icons h2 {
+    display: flex;
+    font-size: 36px;
+
 }
 
-img {
-    max-width: 400px;
+.headshots {
+    display: flex;
+    border-color: blue;
 }
+
