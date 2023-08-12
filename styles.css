@@ -5,8 +5,13 @@
     padding: 8px;
     justify-content: space-between;
 }
+
 .header-links {
     display: flex;
-    text-decoration-style: none;
     gap: 10px;
+}
+
+a {
+    color: white;
+    text-decoration-style: none;
 }
