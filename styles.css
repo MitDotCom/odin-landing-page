@@ -1,13 +1,27 @@
+#body {
+    display: flex;
+    flex-direction: column;
+}
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
     color: white;
+    padding: 0 30px;
+}
+.header a{
+    color: white;
+    display: flex;
+    gap: 10px;
 }
 .banner {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
     color: white;
+}
 
+.banner h1 {
+    font-size: 48px;
+    font-weight: bolder;
 }
