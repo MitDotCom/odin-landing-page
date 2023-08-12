@@ -17,13 +17,16 @@
 }
 
 .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     color: white;
 }
 
 .banner.left {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     color: white;
 }
 
