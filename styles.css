@@ -1,13 +1,13 @@
-#body {
-    display: flex;
-    flex-direction: column;
+.top {
+    background-color: #1f2937;
+    color: white;
+    max-height: 300px;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
-    color: white;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 .header a{
@@ -17,18 +17,17 @@
 }
 
 .banner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     background-color: #1f2937;
     color: white;
 }
 
-.banner h1 {
-    font-size: 48px;
-    font-weight: bolder;
+.banner.left {
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
 
-.banner p {
-    max-width: fit-content;
+.banner img {
+    max-width: 25%;
+    max-height 25%;
 }
