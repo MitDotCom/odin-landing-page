@@ -1,7 +1,9 @@
 .top {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
     background-color: #1f2937;
-    color: white;
-    max-height: 300px;
+    color: white;   
 }
 
 .header {
@@ -18,19 +20,10 @@
 
 .banner {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #1f2937;
     color: white;
 }
 
-.banner.left {
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
-}
-
-.banner img {
-    max-width: 25%;
-    max-height: 25%;
+.banner > * {
+    flex-basis: 100;
 }
