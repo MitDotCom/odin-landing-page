@@ -86,6 +86,13 @@ img {
 }
 
 .pictures img {
+    max-width: 75px;
+}
+
+.picture-box {
+    min-width: 150px;
+    min-height: 150px;
+    border-style: solid;
     border-color: blue;
 }
 
