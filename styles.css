@@ -43,7 +43,7 @@ img {
     padding: 40px;
 }
 
-.left {
+.left-top {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -149,4 +149,21 @@ img {
 .footer p {
     color: white;
     padding: 28px;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+.left-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.left-bottom p {
+    max-width: 40px;
+    text-wrap: wrap;
 }
