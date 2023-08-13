@@ -152,9 +152,10 @@ img {
 }
 
 .sign-up-box {
+    min-width: 800px;
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    gap: 300px;
 }
 .left-bottom {
     display: flex;
@@ -163,7 +164,12 @@ img {
     gap: 18px;
 }
 
+.left-bottom h3 {
+    color: white;
+}
+
 .left-bottom p {
+    color: white;
     max-width: 40px;
     text-wrap: wrap;
 }
