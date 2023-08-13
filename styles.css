@@ -36,7 +36,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 18px
+    padding: 40px;
 }
 
 .left {
@@ -94,5 +94,6 @@ img {
     min-height: 150px;
     border-style: solid;
     border-color: blue;
+    border-radius: 10px
 }
 
