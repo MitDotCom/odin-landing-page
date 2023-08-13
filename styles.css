@@ -102,7 +102,8 @@ img {
 .pictures img {
     overflow: hidden;
     border-style: solid;
-    border-color: blue;
+    border-width: 5px;
+    border-color: #3882f6;
     object-fit: cover;
     width: 150px;
     height: 150px;
@@ -131,8 +132,6 @@ img {
 .sign-up-section {
     display: flex;
     justify-content: center;
-    padding: 40px 500px;
-    margin: 80px;
 }
 
 .sign-up-section a{
@@ -153,7 +152,7 @@ img {
 
 .sign-up-box {
     min-width: 800px;
-    background-color: #1f2937;
+    background-color: #3882f6;
     display: flex;
     justify-content: space-between;
 }
@@ -171,5 +170,5 @@ img {
 .left-bottom p {
     color: white;
     max-width: 40px;
-    text-wrap: wrap;
+    flex-wrap: wrap;
 }
