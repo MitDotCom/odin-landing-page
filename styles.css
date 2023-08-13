@@ -131,9 +131,22 @@ img {
 .sign-up-section {
     display: flex;
     justify-content: center;
-}
-
-.sign-up {
     padding: 40px 500px;
     margin: 80px;
+}
+
+.sign-up-section a{
+    border-color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+    padding: 28px;
 }
