@@ -143,9 +143,11 @@ img {
 }
 
 .sign-up-box {
-    min-width: 1400px;
+    width: 1000px;
+    height: 60px;
     background-color: #3882f6;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     border-radius: 10px;
 }
@@ -162,7 +164,6 @@ img {
 
 .left-bottom p {
     color: white;
-    max-width: 40px;
     flex-wrap: wrap;
 }
 
