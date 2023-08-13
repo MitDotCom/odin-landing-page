@@ -18,17 +18,17 @@ img {
     flex: 1 1 auto;
     justify-content: space-between;
     align-items: center;
-    padding: 0 18px;
+    padding: 20px 150px;
 }
 
 .header h2 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bolder;
 }
 
 .header-links {
     display: flex;
-    gap: 14px;
+    gap: 18px;
 }
 
 .header a {
@@ -47,12 +47,13 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 10px;
     max-width: 400px;
 }
 
 .banner h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
     color: white;
 }
 
@@ -65,7 +66,7 @@ img {
     background-color: #3882f6;
     width: fit-content;
     border-radius: 10px;
-    padding: 14px;
+    padding: 8px 40px;
 }
 .sign-up a {
     text-decoration: none;
@@ -83,16 +84,21 @@ img {
 .icons h2 {
     display: flex;
     font-size: 36px;
-
+    font-weight: 800;
 }
 
 .pictures {
     display: flex;
     justify-content: center;
     padding: 100px;
-    gap: 150px;
+    gap: 100px;
 }
-
+.pictures p {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 150px;
+}
 .pictures img {
     overflow: hidden;
     border-style: solid;
@@ -112,6 +118,7 @@ img {
     flex-wrap: wrap;
     font-size: 36px;
     font-weight: lighter;
+    font-style: italic;
     background-color: #e5e7eb;
     display: flex;
     padding: 100px;
@@ -121,3 +128,12 @@ img {
     align-self: flex-start;
 }
 
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up {
+    padding: 40px 500px;
+    margin: 80px;
+}
