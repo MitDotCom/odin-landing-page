@@ -83,28 +83,32 @@ img {
 .pictures {
     display: flex;
     justify-content: center;
+    padding: 100px;
     gap: 150px;
 }
 
 .pictures img {
     overflow: hidden;
+    border-style: solid;
+    border-color: blue;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
 }
 
 .picture-box {
     display: flex;
-    max-width: 150px;
-    max-height: 150px;
-    border-style: solid;
-    border-color: blue;
-    border-radius: 10px
+    flex-direction: column;
+    align-items: center;
 }
-
 .quote {
+    flex-wrap: wrap;
     font-size: 36px;
     font-weight: lighter;
     background-color: #e5e7eb;
     display: flex;
-    padding: 150px;
+    padding: 100px;
 }
 
 .quote.author {
