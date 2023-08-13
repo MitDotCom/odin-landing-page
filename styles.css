@@ -86,14 +86,16 @@ img {
 }
 
 .pictures img {
-    max-width: 75px;
+    overflow: hidden;
 }
 
 .picture-box {
-    min-width: 150px;
-    min-height: 150px;
+    display: flex;
+    max-width: 150px;
+    max-height: 150px;
     border-style: solid;
     border-color: blue;
     border-radius: 10px
+    
 }
 
