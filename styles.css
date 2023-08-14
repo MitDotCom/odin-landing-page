@@ -134,15 +134,18 @@ img {
     padding: 80px;
 }
 
+.sign-up-section a{
+    border-color: white;
+}
+
 .sign-up-box {
-    width: 1000px;
-    height: 60px;
     background-color: #3882f6;
     display: flex;
-    flex: 1 0 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 10px;
+    padding: 16px;
 }
 .left-bottom {
     display: flex;
@@ -162,10 +165,6 @@ img {
     align-items: center;
     color: white;
     flex-wrap: wrap;
-}
-
-.sign-up-section a{
-    border-color: white;
 }
 
 .footer {
