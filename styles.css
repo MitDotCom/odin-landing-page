@@ -85,6 +85,7 @@ img {
     display: flex;
     font-size: 36px;
     font-weight: 800;
+    padding-top: 20px;
 }
 
 .pictures {
@@ -130,16 +131,7 @@ img {
 }
 
 .sign-up-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 80px;
-}
-
-
-.footer p {
-    color: white;
-    padding: 28px;
 }
 
 .sign-up-box {
@@ -147,6 +139,7 @@ img {
     height: 60px;
     background-color: #3882f6;
     display: flex;
+    flex: 1 0 100%;
     flex-wrap: wrap;
     justify-content: space-between;
     border-radius: 10px;
@@ -160,9 +153,13 @@ img {
 
 .left-bottom h3 {
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .left-bottom p {
+    display: flex;
+    align-items: center;
     color: white;
     flex-wrap: wrap;
 }
@@ -176,4 +173,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer p {
+    color: white;
+    padding: 28px;
 }
